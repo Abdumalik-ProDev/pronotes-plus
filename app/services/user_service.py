@@ -35,4 +35,4 @@ class UserService:
         if not user:
             return False
         await self.user_repo.delete_user(user_id)
-        return True
+        return True 
